@@ -1,24 +1,24 @@
-#include<stdio.h> 
- #include<stdlib.h> 
- #include<time.h> 
- /** 
-  * main - entry point 
-  * 
-  * Return: 0 
-  */ 
-  
- int main(void) 
-  
- { 
-         char letter; 
-  
-         for (letter = 'a'; letter <= 'z'; letter++) 
-                 putchar(letter); 
-  
-         for (letter = 'A'; letter <= 'Z'; letter++) 
-                 putchar(letter); 
-  
-         putchar('\n'); 
-  
-         return (0); 
- }
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * Return: alway returns 0
+ *
+ */
+int main(void)
+{
+char c = 'a';
+while (c <= 'z')
+{
+putchar (c);
+c++;
+}
+c = 'A';
+while (c <= 'Z')
+{
+putchar(c);
+c++;
+}
+putchar('\n');
+return (0);
+}
