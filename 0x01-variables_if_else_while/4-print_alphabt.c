@@ -1,23 +1,22 @@
-#include<stdio.h> 
- #include <stdlib.h> 
- /** 
-  * main - entry - point 
-  * 
-  * Return: 0 
-  */ 
-  
- int main(void) 
- { 
-         char ch = a; 
-         int i = 0; 
-         /* your code goes there */ 
-         while (i < 26) 
-         { 
-                 if (ch != q &&  ch != e) 
-                         putchar(ch); 
-                 ch++; 
-                 i++; 
-         } 
-         putchar(n); 
-         return (0); 
- }
+#include <stdio.h>
+
+/**
+ *main -> assign a random number to the variable n each time it is executed
+ *and print the last digit of the number stored in the variable n
+ *Return: Always 0 (Success)
+ */
+int main(void)
+{
+char ch;
+for (ch = a; ch <= z; ch++)
+{
+if (ch != q && ch != e)
+{
+putchar(ch);
+}
+}
+
+putchar(10); /* this is an ascii code for new line*/
+
+return (0);
+}
